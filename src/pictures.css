@@ -1,0 +1,16 @@
+.picturestyle{
+    width: 100%;
+    height: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    background:url("https://www.stockvault.net/blog/wp-content/uploads/2014/02/free_texture_friday_933-1024x682.jpg");
+   
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+  }

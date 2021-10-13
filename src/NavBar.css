@@ -1,0 +1,30 @@
+ *{margin: 0; padding: 0;}
+
+
+ .navbar {
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: hsl(0, 71%, 75%);
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family:Calibri;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgb(238, 228, 228);
+  color: rgb(129, 31, 241);
+  opacity:0.5;
+}
+

@@ -1,0 +1,34 @@
+.aboutstyle{
+    width: 100%;
+    height: auto;
+    background:url("https://www.stockvault.net/blog/wp-content/uploads/2014/02/free_texture_friday_933-1024x682.jpg");
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    float: center;
+}
+h6{
+    font-size: 25px;
+}
+
+p1{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    text-align: center;
+}
+.about{
+    background: url(http://3.bp.blogspot.com/-e28MfZCd3V4/VzR2gUNiIQI/AAAAAAAAwmU/KBhcMAkAgTsDqO2k5kMHS0q-1DLhYTCigCHM/s1600/modified-cars-hd-wallpapers-hd-wallpapers-360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+.body{
+    margin-left: 5px;
+}
+
+.homestyle{
+    width: 100%;
+    height: auto;
+    background:url("https://www.stockvault.net/blog/wp-content/uploads/2014/02/free_texture_friday_933-1024x682.jpg");
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 725px;
+  }
+  Form{
+      margin-left: 100px;
+      background-color: rgb(206, 238, 203);
+      width: 70%;
+      border-radius: 10px;
+      margin-top: 20px;
+     
+  }
+  .home{
+      background: url(http://s2.paultan.org/image/2018/03/BIMS2018_Ford_Ranger_Raptor-1-1200x800.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+  }

@@ -1,0 +1,30 @@
+
+
+.footer-component{
+  padding-left: inherit;
+  margin: 10px;
+  justify-content: center;
+  position: inherit;
+
+
+}
+.button{
+size: 20px;
+}
+.FacebookIcon{
+    color: #3b5998;
+    margin: 20px;
+}
+.YouTubeIcon{
+  color:red;
+  margin: 20px;
+  
+}
+.witterIcon{
+  color: #00ACEE;
+  margin: 20px;
+}
+.WhatsAppIcon{
+  color: #00E676;
+  margin: 20px;
+}
