@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './home.css';
 
+import Card from './components/Card'
+
+import api from './utils/api'
+
 function Home(){
+
+  const [carlist, setCarlist] = useState(() => [])
+
+  useEffect(() => {
+    api.get("/cars").then((response) => {
+      setCarlist(response.data)
+    }).catch((err) => {
+      alert(err.message)
+    })
+  }, [])
+  
     return(
         
         <div>
@@ -10,16 +25,30 @@ function Home(){
            
            
         <div className="homestyle">
+          
         <h1> welcome to our website</h1>
+         <ul>
+           {
+             carlist.length ?
+             <>
+              {
+                carlist.map((car, i) => <Card car={car} index={i} key={i} />)
+              }
+             </>
+             : <p>No data in the database.</p>
+           }
+         </ul>
           <div className="video">
            <video width="100%" height="1000px" controls autoPlay>
             <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
              </video>
-         </div> 
+         </div>
+         </div>
            
+         <div>
     <h2>Check in and tell us about your ride!!!</h2>
 <div className="Form">        
-  <form action="/action_page.php">
+  <form>
   <div class="row">
     <div class="col-25">
       <label for="fname">Car Make:-</label>
